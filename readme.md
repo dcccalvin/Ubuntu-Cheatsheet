@@ -76,7 +76,6 @@ linux_fun_commands_md = """
 |--------|-------------|
 | `cmatrix` | 💻 Hacker-style "Matrix" digital rain in terminal |
 | `figlet "Hello!"` | 🔤 Turns your text into ASCII art |
-<!-- | `toilet "Linux!" --gay` | 🌈 Another fun ASCII banner tool | -->
 | `lolcat` | 🌈 Pipe any output through it for rainbow colors (`echo Hello | lolcat`) |
 | `cowsay "I'm a cow!"` | 🐄 Cow speaks your message |
 | `fortune` | 🍀 Displays a random witty/wise quote |
