@@ -235,3 +235,47 @@ mv *.txt folder/        # Move all .txt files
   ```bash
   chmod 700 secrets
   ```
+  # 🐧 Linux for Developers
+
+  ## 🚀 Essential Dev Commands
+
+  | Command | What It Does |
+  |---------|--------------|
+  | `git --version` | 🔎 Check Git version |
+  | `git clone <repo>` | 📥 Clone a repository |
+  | `git status` | 📋 Show repo status |
+  | `git add .` | ➕ Stage all changes |
+  | `git commit -m "msg"` | 💾 Commit changes |
+  | `git push` | 🚀 Push to remote repo |
+  | `code .` | 📝 Open VS Code in current folder (if installed) |
+  | `python file.py` | 🐍 Run Python script |
+  | `node file.js` | 🟩 Run Node.js script |
+  | `npm install` | 📦 Install Node.js dependencies |
+  | `pip install <pkg>` | 🐍 Install Python package |
+  | `make` | 🛠️ Build using Makefile |
+  | `./configure && make && sudo make install` | 🏗️ Typical build from source |
+
+  ## 🧑‍💻 Dev Environment Tips
+
+  - Use `virtualenv` or `venv` for Python projects:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+  - Use `tmux` or `screen` for persistent terminal sessions.
+  - Use `ssh user@host` to connect to remote servers.
+
+  ## 🐳 Docker Basics
+
+  | Command | What It Does |
+  |---------|--------------|
+  | `docker --version` | 🔎 Check Docker version |
+  | `docker ps` | 📋 List running containers |
+  | `docker images` | 🖼️ List images |
+  | `docker run -it ubuntu bash` | 🐧 Start Ubuntu container interactively |
+  | `docker build -t myapp .` | 🏗️ Build image from Dockerfile |
+  | `docker-compose up` | 🚀 Start services from docker-compose.yml |
+
+  ---
+
+
