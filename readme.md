@@ -277,5 +277,21 @@ mv *.txt folder/        # Move all .txt files
   | `docker-compose up` | 🚀 Start services from docker-compose.yml |
 
   ---
+  ## 🛟 Getting Help
 
+  | Command                | What It Does                                 |
+  |------------------------|----------------------------------------------|
+  | `man <command>`        | 📚 Show manual for a command                 |
+  | `<command> --help`     | 🆘 Show help/options for a command           |
+  | `apropos <keyword>`    | 🔎 Search commands by keyword                |
+  | `whatis <command>`     | ❓ Brief description of a command             |
 
+  ---
+
+  ## 📚 More Resources
+
+  - [tldr.sh](https://tldr.sh/) — Simplified and community-driven man pages
+  - [explainshell.com](https://explainshell.com/) — Explains shell commands in detail
+  - [cheat.sh](https://cheat.sh/) — Community cheatsheets for commands
+
+  ---
