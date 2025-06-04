@@ -160,6 +160,17 @@ chmod o=r folder      # Set others to read-only
 | 4     | r--        |
 | 0     | ---        |
 
+### Basically
+
+| Permission | Value | Meaning      |
+|------------|-------|--------------|
+| r          | 4     | read         |
+| w          | 2     | write        |
+| x          | 1     | execute      |
+
+Add the values for each group (user, group, others) to get the octal permission number.  
+For example, `rwx` = 4+2+1 = **7**, `rw-` = 4+2 = **6**, `r--` = 4.
+
 ```bash
 chmod 755 folder      # rwx for user, r-x for group & others
 chmod 700 folder      # rwx for user only
