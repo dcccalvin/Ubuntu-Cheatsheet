@@ -295,3 +295,40 @@ mv *.txt folder/        # Move all .txt files
   - [cheat.sh](https://cheat.sh/) — Community cheatsheets for commands
 
   ---
+
+
+## 🤝 How to Contribute
+
+1. **Fork this repository**  
+  Click the "Fork" button at the top right of [dcccalvin/Ubuntu-Cheatsheet](https://github.com/dcccalvin/Ubuntu-Cheatsheet) to create your own copy.
+
+2. **Clone your fork**  
+  ```bash
+  git clone https://github.com/your-username/Ubuntu-Cheatsheet.git
+  cd Ubuntu-Cheatsheet
+  ```
+
+3. **Create a new branch**  
+  ```bash
+  git checkout -b my-feature
+  ```
+
+4. **Make your changes**  
+  Edit or add markdown content, scripts, or tips.
+
+5. **Commit and push**  
+  ```bash
+  git add .
+  git commit -m "Add: my awesome Linux tip"
+  git push origin my-feature
+  ```
+
+6. **Open a Pull Request**  
+  Go to your fork on GitHub and click "Compare & pull request".
+
+7. **Describe your changes**  
+  Add a clear description and submit your PR!
+
+---
+
+*All contributions are welcome—whether it's fixing typos, adding new commands, or improving explanations!*
